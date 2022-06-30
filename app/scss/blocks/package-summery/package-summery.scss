@@ -1,0 +1,17 @@
+@import "../../default-variables.scss";
+
+.package-summery {
+    margin-top: 40px;
+
+    &__title {
+        margin: 0;
+        margin-bottom: 29px;
+        font-size: $font-size-xxl;
+        text-transform: uppercase;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+}

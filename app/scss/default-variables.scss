@@ -1,0 +1,32 @@
+$color-main:              #333333;
+$color-secondary:         #EC1F46;
+$color-back-white:        #F5FAFE;
+$color-white:             #FFFFFF;
+$color-dark-blue:         #0A223D;
+$color-light-blue:        #007ADF;
+$color-black:             #000000;
+$color-grey:              #BDBDBD;
+
+$font-size-xxxs:            0.583rem;
+$font-size-xxs:             0.667rem;
+$font-size-xs:              0.833rem;
+$font-size-s:               1rem;
+$font-size-m:               1.167rem;
+$font-size-l:               1.333rem;
+$font-size-xl:              1.5rem;
+$font-size-xxl:             2rem;
+$font-size-xxxl:            3rem;
+$font-size-4xl:             5.333rem;
+
+$font-main:                 "Mulish", sans-serif;
+$font-logo:                 "Luckiest guy", cursive;
+
+$z-index-top:               100;
+
+@mixin hover-scale($time, $scale-arg) {
+    transition: transform $time;
+
+    &:hover {
+        transform: scale($scale-arg);
+    }
+}

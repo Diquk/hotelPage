@@ -1,0 +1,23 @@
+.carousel{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-bottom: 70px;
+
+    &__back {
+        width: 30px;
+        height: 30px;
+        background-image: url("/app/scss/blocks/review/chevron-left.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+        @include hover-scale(1s, 2);
+
+    }
+
+    &__next {
+        @extend .carousel__back;
+
+        background-image: url("/app/scss/blocks/review/chevron-right.svg");
+    }
+}   

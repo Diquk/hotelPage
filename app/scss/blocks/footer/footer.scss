@@ -1,0 +1,61 @@
+@import "../../default-variables.scss";
+
+.footer {
+    position: relative;
+    padding-top: 108px;
+    padding-bottom: 46px;
+    background-color: $color-dark-blue;
+    color: $color-grey;
+    font-size: $font-size-m;
+
+    &__company-name {
+        width: 4ch;
+        font-weight: 400;
+    }
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    &__title {
+        margin: 0;
+        margin-bottom: 24px;
+        font-size: $font-size-xl;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $color-white;
+    }
+
+    &__bottom {
+        display: flex;
+        margin-top: 106px;
+    }
+
+    &__contacts,
+    &__form {
+        width: 50%;
+    }
+
+    &__vector {
+        margin-top: 30px;
+        justify-content: flex-start;
+    }
+
+    &__disclaimer {
+        margin: 102px auto 0;
+        width: fit-content;
+    }
+
+    &__cards {
+        position: absolute;
+        right: 166px;
+        bottom: 46px;
+    }
+
+    &__link {
+        margin: 0 11px;
+        color: $color-white;
+    }
+}

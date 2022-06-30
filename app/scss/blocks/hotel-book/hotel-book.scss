@@ -1,0 +1,109 @@
+@import "../../default-variables.scss";
+
+.hotel-book {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 350px;
+    
+    &_main {
+        flex-direction: row;
+        width: 730px;
+    }
+
+    &__content {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        padding: 29px 32px;
+        background-color: $color-dark-blue;
+        color: $color-white;
+        border-radius: 0px 0 8px 8px;
+
+        &_main {
+            border-radius: 0px 8px 8px 0;
+            padding: 46px 21px 35px 46px;
+        }
+    }
+
+    &__stars {
+        display: flex;
+    }
+
+    &__title {
+        margin-top: 0;
+        margin-bottom: 23px;
+        font-size: $font-size-xl;
+        font-weight: 700;
+
+        &_main {
+            margin-top: 6px;
+            margin-bottom: 27px;
+        }
+    }
+
+    &__text {
+        margin: 0;
+        margin-bottom: 34px;
+        font-size: $font-size-m;
+    }
+
+    &__vector {
+        justify-content: flex-start;
+
+        &s {
+            margin-bottom: 24px;
+
+            &_main {
+                margin-bottom: 37px;  
+            }
+        }
+    }
+
+    &__sale {
+        margin-top: auto;
+        font-size: $font-size-m;
+        text-decoration-line: line-through;
+    }
+
+    &__price {
+        margin-top: 5px;
+        font-size: $font-size-xxl;
+        font-weight: 700;
+    }
+
+    &__photo {
+        height: 250px;
+
+        &_main {
+            height: 500px;
+        }
+    }
+
+    &__img {
+        width: 350px;
+        height: 250px;
+        border-radius: 8px 8px 0 0;
+
+        &_main {
+            width: 366px;
+            height: 500px;
+            border-radius: 8px 0 0 8px;
+        }
+    }
+
+    &__book-now {
+        position: absolute;
+        right: 21px;
+        bottom: 30px;
+        width: 120px;
+        height: 40px; 
+    }
+
+    &__flash-offer {
+        position: absolute;
+        top: 26px;
+        max-width: 200px;
+    }
+}

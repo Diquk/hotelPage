@@ -1,0 +1,25 @@
+@import "../../default-variables.scss";
+
+.wrapper {
+    width: 100vw;
+    background-color: $color-back-white;
+
+    &__item {
+        padding: 0 165px;
+        max-width: 1440px;
+        margin: 0 auto;
+        
+    }
+
+    &__middle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    &__title {
+        @extend .wrapper__middle;
+        padding-top: 110px;
+        margin-top: 0;
+        
+    }
+}

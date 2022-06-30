@@ -1,0 +1,32 @@
+.vector-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+
+    &::before {
+        content: "";
+        margin-right: 9px;
+        width: 14px;
+        height: 14px;
+        flex-shrink: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    &_guest::before {
+        background-image: url("/app/scss/blocks/vector-img/user.svg");
+    }
+
+    &_house::before {
+        background-image: url("/app/scss/blocks/vector-img/home.svg");
+    }
+
+    &_telephone::before {
+        background-image: url("/app/scss/blocks/vector-img/phone-call.svg");
+    }
+
+    &_pin::before {
+        background-image: url("/app/scss/blocks/vector-img/map-pin.svg");
+    }
+}

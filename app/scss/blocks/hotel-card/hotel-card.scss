@@ -1,0 +1,65 @@
+@import "../../default-variables.scss";
+
+.hotel-card {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        height: 100px;
+    }
+
+    &__stars {
+        display: flex;
+    }
+
+    &__title {
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    &__sub-title {
+        margin: 0;
+    }
+
+    &__summary {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__flash-offer {
+        position: absolute;
+        top: 35px;
+        left: 282px;
+        width: 70px;
+        height: 20px;
+        font-size: $font-size-xs;
+    }
+
+    &__rating {
+        display: flex;
+        width: 65px;
+        height: 45px;
+    }
+
+    &__gallery {
+        width: 728px;
+        height: 450px;
+    }
+
+    &__main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__booking {
+        width: 350px;
+        height: 210px;
+    }
+
+    &__aside {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+}

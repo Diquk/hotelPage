@@ -1,0 +1,51 @@
+@import "./default-variables.scss";
+@import "./blocks/wrapper/wrapper.scss";
+@import "./blocks/navtop/navtop.scss";
+@import "./blocks/link/link.scss";
+@import "./blocks/company-name/company-name.scss";
+@import "./blocks/navbar/navbar.scss";
+@import "./blocks/search-form/search-form.scss";
+@import "./blocks/button/button.scss";
+@import "./blocks/shop-icon/shop-icon.scss";
+@import "./blocks/personal-info/personal-info.scss";
+@import "./blocks/dropdown/dropdown.scss";
+@import "./blocks/navigation/navigation.scss";
+@import "./blocks/page-navigation/page-navigation.scss";
+@import "./blocks/hotel-card/hotel-card.scss";
+@import "./blocks/star/star.scss";
+@import "./blocks/rating/rating.scss";
+@import "./blocks/gallery/gallery.scss";
+@import "./blocks/quick-booking/quick-booking.scss";
+@import "./blocks/vector-img/vector-img.scss";
+@import "./blocks/map/map.scss";
+@import "./blocks/main-hotel/main-hotel.scss";
+@import "./blocks/package-summery/package-summery.scss";
+@import "./blocks/dec-list/dec-list.scss";
+@import "./blocks/other-packages/other-packages.scss";
+@import "./blocks/hotel-book/hotel-book.scss";
+@import "./blocks/title/title.scss";
+@import "./blocks/review/review.scss";
+@import "./blocks/carousel/carousel.scss";
+@import "./blocks/subscribe-block/subscribe-block.scss";
+@import "./blocks/other-activities/other-activities.scss";
+@import "./blocks/activity/activity.scss";
+@import "./blocks/footer/footer.scss";
+@import "./blocks/ref-block/ref-block.scss";
+@import "./blocks/contact-form/contact-form.scss";
+
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: $font-main;
+    font-size: 12px;
+    color: $color-main;
+}
+
+body {
+    margin: 0;
+}

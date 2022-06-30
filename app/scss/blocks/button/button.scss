@@ -1,0 +1,38 @@
+@import "../../default-variables.scss";
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    background-color: $color-secondary;
+    border: none;
+    border-radius: 5px;
+    color: $color-white;
+
+    &_size_search {
+        border-radius: 0 5px 5px 0;
+    }
+
+    &_size_offer {
+        padding: 7px 15px;
+        border-radius: 0 5px 5px 0;
+    }
+
+    &_size_title {
+        border-radius: 3px;
+    }
+
+    &_interactive {
+        transition: box-shadow 1s;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+            -webkit-box-shadow: 0px 0px 9px 4px rgba(151, 25, 63, 0.5) inset;
+            -moz-box-shadow: 0px 0px 9px 4px rgba(151, 25, 63, 0.5) inset;
+            box-shadow: 0px 0px 9px 4px rgba(151, 25, 63, 0.5) inset;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import "../../default-variables.scss";
+
+.main-hotel {
+    background-color: $color-back-white;
+    
+    &__hotel-navigation {
+        display: flex;
+        margin-top: 67.68px;
+        height: 35.32px;
+        justify-content: space-between;
+        font-size: $font-size-m;
+        font-weight: 700;
+    }
+
+    &__tab {
+        &_active {
+            color: $color-secondary;
+            border-bottom: 4px solid $color-secondary;
+        }
+    }
+}

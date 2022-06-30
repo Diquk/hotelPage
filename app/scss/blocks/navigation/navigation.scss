@@ -1,0 +1,17 @@
+@import "../../default-variables.scss";
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    font-size: $font-size-m;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-white;
+    background-color: $color-dark-blue;
+
+    &__link {
+        padding: 2rem 0;  
+    }
+}

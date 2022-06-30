@@ -1,0 +1,40 @@
+@import "../../default-variables.scss";
+
+.ref-block {
+    &__link {
+        display: block;
+        margin: 5px 0;
+    }
+
+    &__imgs {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    &__img-link {
+        display: block;
+        margin: 0 5px;
+        width: 21px;
+        height: 21px;
+        border-radius: 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        &_facebook {
+            background-image: url("/app/scss/blocks/ref-block/face.svg");
+        }
+
+        &_youtube {
+            background-image: url("/app/scss/blocks/ref-block/utube.svg");
+        }
+
+        &_inst {
+            background-image: url("/app/scss/blocks/ref-block/inst.svg");
+        }
+    }
+
+    &__icons {
+        display: flex;
+        margin-left: 30px;
+    }
+}

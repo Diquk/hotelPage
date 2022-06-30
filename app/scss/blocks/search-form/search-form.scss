@@ -1,0 +1,33 @@
+@import "../../default-variables.scss";
+
+.search-form {
+    display: flex;
+
+    &__input {
+        padding: 12px 0 13px 23px;
+        width: 350px;
+        height: 40px;
+        border: none;
+        background-color: $color-white;
+        border-radius: 6px 0 0 6px;
+
+        &_email {
+            height: 55px;
+            width: 285px;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &__button {
+        width: 65px;
+        height: 40px;
+
+        &_email {
+            height: 55px;
+        }
+
+    }
+}

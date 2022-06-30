@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+
+    &__right-side {
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__shop-icon {
+        margin-right: 50px;
+    }
+}

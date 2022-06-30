@@ -1,0 +1,60 @@
+@import "../../default-variables.scss";
+
+.review {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0 95px 30px 99px;
+    width: 731px;
+    min-height: 280px;
+    background-color: $color-white;
+
+    &_in_main {
+        margin-top: 115px;
+    }
+
+    &__avatar {
+        position: absolute;
+        top: -45px;
+        left: 321px;
+        margin: 0 auto;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+    }
+
+    &__name {
+        margin-top: 54px;
+        color: $color-secondary;
+        font-weight: 700;
+    }
+
+    &__date {
+        margin-top: 10px;
+        font-size: $font-size-xs;
+        color: $color-black;
+    }
+
+    &__rate {
+        display: flex;
+        margin-top: 4px;
+    }
+
+    &__text {
+        margin: 0;
+        margin-top: 2rem;
+        text-align: justify;
+    }
+
+    &__quotes {
+        position: absolute;
+        top:12px;
+        left: 64px;
+        width: 607px;
+        height: 153px;
+        background-image: url("/app/scss/blocks/review/quotes.svg");
+        background-repeat: no-repeat;
+    }
+}

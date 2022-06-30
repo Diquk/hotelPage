@@ -1,0 +1,19 @@
+@import "../../default-variables.scss";
+
+.company-name {
+    margin: 0;
+    font-family: $font-logo;
+
+    &_is_header {
+        font-size: 2rem;
+    }
+
+    &_is_footer {
+        color: $color-white;
+        font-size: $font-size-4xl;
+    }
+
+    &__word_is_red {
+        color: $color-secondary;
+    }
+}

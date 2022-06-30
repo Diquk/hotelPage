@@ -1,0 +1,44 @@
+@import "../../default-variables.scss";
+
+.quick-booking {
+    padding: 29px 29px 26px 26px;
+    background-color: $color-dark-blue;
+    border-radius: 8px;
+    color: $color-white;
+
+    &__top-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__price {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__text {
+        &_small {
+            font-size: $font-size-xs;
+        }
+
+        &_big {
+            font-size: 2rem;
+            font-weight: 800;
+        }
+    }
+
+    &__telephone {
+        display: flex;
+        margin-top: 9px;
+        margin-bottom: 17px;
+        justify-content: space-between;
+        align-items: center;
+        font-size: $font-size-xl;
+    }
+
+    &__button {
+        width: 295px;
+        height: 45px;
+    }
+}

@@ -1,0 +1,26 @@
+@import "../../default-variables.scss";
+
+.navtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    color: $color-main;
+    background-color: $color-back-white;
+
+    &__bald-text {
+        font-weight: 700;
+    }
+
+    &__normal-text {
+        margin-left: 1ch;
+    }
+
+    &__right-side {
+        display: flex;
+    }
+
+    &__link:first-child {
+        margin-right: 10rem;
+    }
+}

@@ -1,0 +1,39 @@
+@import "../../default-variables.scss";
+
+.subscribe-block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 260px;
+    background-image: url("/app/scss/blocks/subscribe-block/subscribe-back.png");
+
+    &::before {
+        content: "";
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(10, 34, 61, 0.8);
+    }
+
+    &__text {
+        margin: 0;
+        color: $color-white;
+
+        &_small {
+            font-size: $font-size-xxl;
+            font-weight: 300;
+        }
+
+        &_big {
+            font-size: $font-size-xxxl;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+
+    &__left-side, &__right-side {
+        z-index: $z-index-top;
+    }
+}
